@@ -1,0 +1,14 @@
+import java.awt.*;
+import java.applet.*;
+
+
+/*<applet code="myApplet1" width=300 height=100>/
+</applet>*/
+public class myApplet1 extends Applet
+{
+public void paint(Graphics g)
+{
+g.drawString("Abhishek",10,10);
+g.drawString("welcomes you all",100,100);
+}
+}
