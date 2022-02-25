@@ -1,0 +1,24 @@
+import java.awt.*;
+import java.applet.*;
+/*
+<applet code="LabelDemo" width=300 height=200>
+</applet>
+*/
+
+public class LabelDemo extends Applet 
+{
+Label one,two,three;
+
+public void init() 
+{
+one = new Label("One",Label.RIGHT);
+two = new Label("Two",Label.RIGHT);
+three = new Label("Three",Label.LEFT);
+
+// add labels to applet window
+add(one);
+add(two);
+add(three);
+
+}
+}
