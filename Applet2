@@ -1,0 +1,19 @@
+import java.applet.*;
+import java.awt.*;
+import java.io.*;
+/*<applet code="myApplet2" width=1000 height=1000>
+<param name="name" value="Abhishek">
+<param name="designation" value="student">
+<param name="department" value="CSE">
+<param name="college" value="RVRJCCE">
+</applet>*/
+public class myApplet2 extends Applet
+{
+public void paint(Graphics g)
+{
+g.drawString("name:"+getParameter("name"),50,50);
+g.drawString("designation:"+getParameter("designation"),50,60);
+g.drawString("department:"+getParameter("department"),50,70);
+g.drawString("college:"+getParameter("college"),50,80);
+}
+}
